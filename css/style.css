@@ -1,0 +1,98 @@
+* {
+	user-select: none;
+}
+
+.uk-label {
+    border-radius: 33px;
+}
+
+.uk-button-primary {
+    background-color: hsl(0 0% 95% / 1);
+    color: #333;
+}
+
+.uk-card, .uk-modal-dialog {
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.uk-card-primary, .uk-dark .uk-marker {
+    background-color: #000000c2;
+    color: #fff;
+}
+
+.uk-card-default .uk-card-footer, .uk-card-default .uk-card-header, .uk-modal-header, .uk-modal-footer {
+    border: none;
+}
+
+.uk-card-default .uk-card-footer, .uk-modal-footer {
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+
+.uk-subnav-pill>*>:first-child {
+    color: #666;
+}
+
+.uk-button {
+    /* text-transform: none; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 100px;
+}
+
+.uk-button-group > .uk-button {
+    border-radius: unset;
+}
+
+.uk-button-primary:hover {
+    background-color: hsl(0 0% 86% / 1);
+    color: #333;
+}
+
+.uk-subnav-pill>.uk-active>a {
+    background: transparent;
+    color: #000;
+}
+
+.uk-dotnav>*>* {
+    border-color: #00000094;
+}
+
+.uk-dotnav>.uk-active>* {
+    background-color: #00000080;
+}
+
+.uk-slidenav {
+    color: unset;
+}
+
+.uk-accordion-content {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.uk-accordion>:nth-child(n+2) {
+    margin-top: 10px;
+}
+
+.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
+	min-height: 100px;
+}
+.my-bg-red {
+	background-color: hsl(0 0% 80% / 1);
+}
+.my-bg-blue {
+	background-color: hsl(0 0% 82% / 1);
+}
+.my-bg-green {
+	background-color: hsl(0 0% 84% / 1);
+}
+.my-bg-yellow {
+	background-color: hsl(0 0% 86% / 1);
+}
+.my-bg-pink {
+	background-color: hsl(0 0% 88% / 1);
+}
