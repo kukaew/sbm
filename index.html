@@ -10,45 +10,682 @@
 		<script src="js/uikit-icons.min.js"></script>
 	</head>
 	<body>
-		<div class="uk-background-muted uk-height-large"></div>
-		<div uk-sticky show-on-up animation="uk-animation-slide-top" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container" cls-inactive="uk-navbar-transparent" tm-section-start>
+
+
+
+
+		<section id="slider-1" class="uk-section uk-section-small uk-margin-remove uk-padding-remove uk-position-relative">
+			<div uk-slider="clsActivated: uk-transition-active; autoplay: true">
+				<div class="uk-position-relative uk-visible-toggle uk-dark uk-background-muted" tabindex="-1">
+					<div class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-3@m uk-height-large">
+						<div class="my-bg-red">
+							<div class="uk-panel uk-position-bottom-right uk-position-small  -default uk-transition-slide-bottom-small">
+								<a href="" class="uk-icon-button" uk-icon="arrow-right"></a>
+							</div>
+						</div>
+						<div class="my-bg-blue">
+							<div class="uk-panel uk-position-bottom-right uk-position-small  uk-transition-slide-bottom-small">
+								<a href="" class="uk-icon-button" uk-icon="arrow-right"></a>
+							</div>
+						</div>
+						<div class="my-bg-green">
+							<div class="uk-panel uk-position-bottom-right uk-position-small  uk-transition-slide-bottom-small">
+								<a href="" class="uk-icon-button" uk-icon="arrow-right"></a>
+							</div>
+						</div>
+						<div class="my-bg-yellow">
+							<div class="uk-panel uk-position-bottom-right uk-position-small  uk-transition-slide-bottom-small">
+								<a href="" class="uk-icon-button" uk-icon="arrow-right"></a>
+							</div>
+						</div>
+						<div class="my-bg-pink">
+							<div class="uk-panel uk-position-bottom-right uk-position-small  uk-transition-slide-bottom-small">
+								<a href="" class="uk-icon-button" uk-icon="arrow-right"></a>
+							</div>
+						</div>
+					</div>
+					<a class="uk-position-center-left uk-position-small" href uk-slidenav-previous uk-slider-item="previous"></a>
+					<a class="uk-position-center-right uk-position-small" href uk-slidenav-next uk-slider-item="next"></a>
+				</div>
+			</div>
+
+			
+        </div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-section uk-section-secondary uk-section-xsmall">
+		<div uk-sticky show-on-up animation="uk-animation-slide-top" cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container" cls-inactive="uk-navbar-transparent" tm-section-start class="">
 			
 			<div class="uk-navbar-container">
 				<div class="uk-container uk-container-expand uk-navbar-container">
-					<nav class="uk-navbar" uk-navbar="{&quot;align&quot;:&quot;left&quot;,&quot;container&quot;:&quot;.tm-header-mobile &gt; [uk-sticky]&quot;,&quot;boundary&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;}">
-						<div class="uk-navbar-left">
+					<nav class="uk-navbar" uk-navbar="{&quot;align&quot;:&quot;center&quot;,&quot;container&quot;:&quot;.tm-header-mobile &gt; [uk-sticky]&quot;,&quot;boundary&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;}">
+						<div class="uk-navbar-center">
+							<div uk-navbar class="uk-visible@s">
+								<div class="uk-navbar-left">
+									<div class="uk-button-group">
+										<a class="uk-button uk-button-large uk-active"href="#">Подобрать модель</a>
+										<a class="uk-button uk-button-large"href="#">Услуги</a>
+										<a class="uk-button uk-button-large"href="#">Техническая поддержка</a>
+										<a class="uk-button uk-button-large"href="#">Дилерам</a>
+										<a class="uk-button uk-button-large"href="#">О компании и контакты</a>
 
-								<div uk-navbar class="uk-visible@s">
-									<div class="uk-navbar-left">
-										<ul class="uk-navbar-nav">
-											<li class="uk-active"><a href="#">Active</a></li>
-											<li><a href="#">Item</a></li>
-											<li><a href="#">Item</a></li>
-											<li><a href="#">Item</a></li>
-											<li><a href="#">Item</a></li>
-											<li><a href="#">Item</a></li>
-											<li><a href="#">Item</a></li>
-										</ul>
 									</div>
 								</div>
-
-								<div uk-navbar class="uk-hidden@s">
-									<div class="uk-navbar-left">
-										<ul class="uk-navbar-nav">
-											<li class="uk-active"><a href="#">=</a></li>
-										</ul>
-									</div>
-								</div>
+							</div>
+							<div class="uk-hidden@s uk-margin-small">
 
 
+ 
+        			<div>
+        				<a class="uk-button uk-active"href="#">Подобрать модель</a>
+        			</div>
+					<div>
+						<a class="uk-button "href="#">Услуги</a>
+					</div>
+					<div>
+						<a class="uk-button "href="#">Техническая поддержка</a>
+					</div>
+					<div>
+						<a class="uk-button "href="#">Дилерам</a>
+					</div>
+					<div>
+						<a class="uk-button "href="#">О компании и контакты</a>
+					</div>
+              
+</section>       
+       <div  uk-parallax="target: #slider-1; y: 380; easing: 0;" class="uk-logo uk-position-top-left uk-background-contain uk-height-small uk-width-1-2 uk-width-1-3@s uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(images/logo-smal.svg);">
+					
+							</div>
 						</div>
 					</nav>
 				</div>
 			</div>
 		</div>
-		<div class="uk-background-muted uk-height-large"></div>
-		<div class="uk-background-muted uk-height-large"></div>
-		<div class="uk-background-muted uk-height-large"></div>
-		<div class="uk-background-muted uk-height-large"></div>
+
+
+
+
+		<section class="uk-section uk-section-small uk-background-muted uk-padding-small">
+			<div class="uk-margin">
+				<div uk-filter="target: .js-filter">
+					<div class="uk-grid-small uk-flex-center uk-grid-divider uk-child-width-auto" uk-grid>
+						<div>
+							<ul class="uk-subnav uk-subnav-pill" uk-margin>
+								<li uk-filter-control="sort: data-size"><a href="#" class="">маленькие</a></li>
+								<li uk-filter-control="sort: data-size; order: desc" class=""><a href="#">большие</a></li>
+							</ul>
+						</div>
+						<div>
+							<ul class="uk-subnav uk-subnav-pill" uk-margin>
+								<li  class="uk-active" uk-filter-control="sort: data-color"><a href="#" class="">цена-качество</a></li>
+								<li uk-filter-control="sort: data-color; order: desc" class=""><a href="#">максимум опций</a></li>
+							</ul>
+						</div>
+						<div>
+							<ul class="uk-subnav uk-subnav-pill" uk-margin>
+								<li uk-filter-control="sort: data-date" class=""><a href="#">новые модели</a></li>
+								<li uk-filter-control="sort: data-date; order: desc" class=""><a href="#">проверенные временем</a></li>
+							</ul>
+						</div>
+					</div>
+					<ul class="js-filter uk-child-width-1-1 uk-child-width-1-2@m uk-child-width-1-3@l uk-child-width-1-4@xl uk-grid-small" uk-grid="masonry: true">
+						<li data-date="2016-06-01" data-color="0" data-size="10">
+							<div class="uk-card uk-card-default uk-card-small">
+								<div class="uk-card-badge uk-label uk-label-warning">Скидка!</div>
+								<div class="uk-card-header">
+									<h4 class="uk-card-title">Триумф-75</h4>
+								</div>
+								<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s1.jpg);"></div>
+								
+								<div class="uk-card-body">
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-1</div>
+										<div>234</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-2</div>
+										<div>4354</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-3</div>
+										<div>757</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+								</div>
+								<div class="uk-card-footer uk-text-right uk-text-right">
+									<a class="uk-button uk-button-primary" href="#modal-group-1" uk-toggle>Больше информации</a>
+								</div>
+							</div>
+						</li>
+						<li data-date="2016-12-13" data-color="1" data-size="7">
+							<div class="uk-card uk-card-default uk-card-small">
+								<div class="uk-card-badge uk-label uk-label-success">Популярный!</div>
+								<div class="uk-card-header">
+									<h4 class="uk-card-title">Триумф-6</h4>
+								</div>
+								<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s2.jpg);"></div>
+								
+								<div class="uk-card-body">
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-1</div>
+										<div>234</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-2</div>
+										<div>4354</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-3</div>
+										<div>757</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+								<div class="uk-card-footer uk-text-right uk-text-right">
+									<a class="uk-button uk-button-primary" href="#modal-group-2" uk-toggle>Больше информации</a>
+								</div>
+							</div>
+						</li>
+						<li data-date="2017-05-20" data-color="5" data-size="6">
+							<div class="uk-card uk-card-default uk-card-small">
+								<div class="uk-card-badge uk-label uk-label-warning">Скидка!</div>
+								<div class="uk-card-header">
+									<h4 class="uk-card-title">Триумф-9</h4>
+								</div>
+								<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s3.jpg);"></div>
+								
+								<div class="uk-card-body">
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-1</div>
+										<div>234</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-2</div>
+										<div>4354</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-3</div>
+										<div>757</div>
+									</div>
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+								<div class="uk-card-footer uk-text-right uk-text-right">
+									<a class="uk-button uk-button-primary" href="#modal-group-3" uk-toggle>Больше информации</a>
+								</div>
+							</div>
+						</li>
+						<li data-date="2017-09-17" data-color="9" data-size="4">
+							<div class="uk-card uk-card-default uk-card-small">
+								
+								<div class="uk-card-header">
+									<h4 class="uk-card-title">Триумф-15</h4>
+								</div>
+								<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s4.jpg);"></div>
+								
+								<div class="uk-card-body">
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-1</div>
+										<div>234</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-2</div>
+										<div>4354</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-3</div>
+										<div>757</div>
+									</div>
+									<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+								<div class="uk-card-footer uk-text-right uk-text-right">
+									<a class="uk-button uk-button-primary" href="#modal-group-4" uk-toggle>Больше информации</a>
+								</div>
+							</div>
+						</li>
+						<li data-date="2017-11-03" data-color="7" data-size="1">
+							<div class="uk-card uk-card-default uk-card-small">
+								<div class="uk-card-header">
+									<h4 class="uk-card-title">Триумф-55</h4>
+								</div>
+								<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s1.jpg);"></div>
+								
+								<div class="uk-card-body">
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-1</div>
+										<div>234</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-2</div>
+										<div>4354</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-3</div>
+										<div>757</div>
+									</div>
+									<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+								<div class="uk-card-footer uk-text-right uk-text-right">
+									<a class="uk-button uk-button-primary" href="#modal-group-1" uk-toggle>Больше информации</a>
+								</div>
+							</div>
+						</li>
+						<li data-date="2017-12-25" data-color="2" data-size="5">
+							<div class="uk-card uk-card-default uk-card-small">
+								<div class="uk-card-badge uk-label uk-label-warning">Скидка!</div>
+								<div class="uk-card-header">
+									<h4 class="uk-card-title">Триумф-95</h4>
+								</div>
+								<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s2.jpg);"></div>
+								
+								<div class="uk-card-body">
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-1</div>
+										<div>234</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-2</div>
+										<div>4354</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-3</div>
+										<div>757</div>
+									</div>
+									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+								<div class="uk-card-footer uk-text-right uk-text-right">
+									<a class="uk-button uk-button-primary" href="#modal-group-2" uk-toggle>Больше информации</a>
+								</div>
+							</div>
+						</li>
+						<li data-date="2018-01-30" data-color="6" data-size="4">
+							<div class="uk-card uk-card-default uk-card-small">
+								<div class="uk-card-header">
+									<h4 class="uk-card-title">Триумф-85</h4>
+								</div>
+								<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s3.jpg);"></div>
+								
+								<div class="uk-card-body">
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-1</div>
+										<div>234</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-2</div>
+										<div>4354</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-3</div>
+										<div>757</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+								<div class="uk-card-footer uk-text-right uk-text-right">
+									<a class="uk-button uk-button-primary" href="#modal-group-3" uk-toggle>Больше информации</a>
+								</div>
+							</div>
+						</li>
+						<li data-date="2018-02-01" data-color="4" data-size="8">
+							<div class="uk-card uk-card-default uk-card-small">
+								<div class="uk-card-badge uk-label uk-label-success">Популярный!</div>
+								<div class="uk-card-header">
+									<h4 class="uk-card-title">Триумф-500</h4>
+								</div>
+								<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s4.jpg);"></div>
+								
+								<div class="uk-card-body">
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-1</div>
+										<div>234</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-2</div>
+										<div>4354</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-3</div>
+										<div>757</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+								</div>
+								<div class="uk-card-footer uk-text-right uk-text-right">
+									<a class="uk-button uk-button-primary" href="#modal-group-4" uk-toggle>Больше информации</a>
+								</div>
+							</div>
+						</li>
+						<li data-date="2018-03-11" data-color="8" data-size="9">
+							<div class="uk-card uk-card-default uk-card-small">
+								<div class="uk-card-badge uk-label uk-label-warning">Скидка!</div>
+								<div class="uk-card-header">
+									<h4 class="uk-card-title">Триумф-45</h4>
+								</div>
+								<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s1.jpg);"></div>
+								
+								<div class="uk-card-body">
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-1</div>
+										<div>234</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-2</div>
+										<div>4354</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-3</div>
+										<div>757</div>
+									</div>
+									<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+								<div class="uk-card-footer uk-text-right uk-text-right">
+									<a class="uk-button uk-button-primary" href="#modal-group-1" uk-toggle>Больше информации</a>
+								</div>
+							</div>
+						</li>
+						<li data-date="2018-06-13" data-color="3" data-size="3">
+							<div class="uk-card uk-card-default uk-card-small">
+								<div class="uk-card-badge uk-label uk-label-warning">Скидка!</div>
+								<div class="uk-card-header">
+									<h4 class="uk-card-title">Триумф-35</h4>
+								</div>
+								<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s2.jpg);"></div>
+								
+								<div class="uk-card-body">
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-1</div>
+										<div>234</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-2</div>
+										<div>4354</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-3</div>
+										<div>757</div>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+								<div class="uk-card-footer uk-text-right uk-text-right">
+									<a class="uk-button uk-button-primary" href="#modal-group-2" uk-toggle>Больше информации</a>
+								</div>
+							</div>
+						</li>
+						<li data-date="2018-10-27" data-color="10" data-size="0">
+							<div class="uk-card uk-card-default uk-card-small">
+								<div class="uk-card-badge uk-label uk-label-warning">Скидка!</div>
+								<div class="uk-card-header">
+									<h4 class="uk-card-title">Триумф-5s</h4>
+								</div>
+								<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s3.jpg);"></div>
+								
+								<div class="uk-card-body">
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-1</div>
+										<div>234</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-2</div>
+										<div>4354</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-3</div>
+										<div>757</div>
+									</div>
+									<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+								<div class="uk-card-footer uk-text-right uk-text-right">
+									<a class="uk-button uk-button-primary" href="#modal-group-3" uk-toggle>Больше информации</a>
+								</div>
+							</div>
+						</li>
+						<li data-date="2018-12-02" data-color="11" data-size="5">
+							<div class="uk-card uk-card-default uk-card-small">
+								<div class="uk-card-badge uk-label uk-label-warning">Скидка!</div>
+								<div class="uk-card-header">
+									<h4 class="uk-card-title">Триумф-25</h4>
+								</div>
+								<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s4.jpg);"></div>
+								
+								<div class="uk-card-body">
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-1</div>
+										<div>234</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-2</div>
+										<div>4354</div>
+									</div>
+									<div class="uk-grid-small" uk-grid>
+										<div class="uk-width-expand" uk-leader="fill: -">Характеристика-3</div>
+										<div>757</div>
+									</div>
+									<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+								</div>
+								<div class="uk-card-footer uk-text-right uk-text-right">
+									<a class="uk-button uk-button-primary" href="#modal-group-4" uk-toggle>Больше информации</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+
+
+		<div id="modal-group-1" uk-modal>
+			<div class="uk-modal-dialog">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-modal-header">
+					<h2 class="uk-modal-title">Триумф 1</h2>
+				</div>
+				<div class="uk-inline uk-light">
+					<div class="uk-background-contain uk-height-medium uk-width-large uk-background-center-center" style="background-image: url(images/s4.jpg);"></div>
+					<a class="uk-position-absolute uk-transform-center" style="left: 35%; top: 30%" href="#" uk-marker></a>
+					<div style="width: 450px;" uk-drop="pos: right-center; mode: click; auto-update: false;">
+						
+						
+						<div class="el-item uk-card uk-card-primary uk-card-small"><button class="uk-drop-close uk-position-small uk-position-top-right" type="button" aria-label="Close" uk-close></button>
+							<div class="uk-card-body uk-margin-remove-first-child">
+								<div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="uk-position-absolute uk-transform-center" style="left: 60%; top: 40%" href="#" uk-marker></a>
+					<div style="width: 450px;" uk-drop="pos: right-center; mode: click; auto-update: false;">
+						
+						<div class="el-item uk-card uk-card-primary uk-card-small"><button class="uk-drop-close uk-position-small uk-position-top-right" type="button" aria-label="Close" uk-close></button>
+							<div class="uk-card-body uk-margin-remove-first-child">
+								<div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="uk-position-absolute uk-transform-center" style="left: 45%; top: 70%" href="#" uk-marker></a>
+					<div style="width: 450px;" uk-drop="pos: right-center; mode: click; auto-update: false;">
+						
+						<div class="el-item uk-card uk-card-primary uk-card-small"><button class="uk-drop-close uk-position-small uk-position-top-right" type="button" aria-label="Close" uk-close></button>
+							<div class="uk-card-body uk-margin-remove-first-child">
+								<div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="uk-modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="uk-modal-footer uk-text-right">
+					<a href="#modal-group-2" class="uk-button uk-button-primary" uk-toggle>Следующий</a>
+				</div>
+			</div>
+		</div>
+		<div id="modal-group-2" uk-modal>
+			<div class="uk-modal-dialog">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-modal-header">
+					<h2 class="uk-modal-title">Триумф 2</h2>
+				</div>
+				<div class="uk-inline uk-light">
+					<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s3.jpg);"></div>
+					<a class="uk-position-absolute uk-transform-center" style="left: 45%; top: 30%" href="#" uk-marker></a>
+					<div style="width: 450px;" uk-drop="pos: right-center; mode: click; auto-update: false;">
+						
+						<div class="el-item uk-card uk-card-primary uk-card-small"><button class="uk-drop-close uk-position-small uk-position-top-right" type="button" aria-label="Close" uk-close></button>
+							<div class="uk-card-body uk-margin-remove-first-child">
+								<div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="uk-position-absolute uk-transform-center" style="left: 65%; top: 40%" href="#" uk-marker></a>
+					<div style="width: 450px;" uk-drop="pos: right-center; mode: click; auto-update: false;">
+						
+						<div class="el-item uk-card uk-card-primary uk-card-small"><button class="uk-drop-close uk-position-small uk-position-top-right" type="button" aria-label="Close" uk-close></button>
+							<div class="uk-card-body uk-margin-remove-first-child">
+								<div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="uk-position-absolute uk-transform-center" style="left: 55%; top: 75%" href="#" uk-marker></a>
+					<div style="width: 450px;" uk-drop="pos: right-center; mode: click; auto-update: false;">
+						
+						<div class="el-item uk-card uk-card-primary uk-card-small"><button class="uk-drop-close uk-position-small uk-position-top-right" type="button" aria-label="Close" uk-close></button>
+							<div class="uk-card-body uk-margin-remove-first-child">
+								<div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="uk-modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="uk-modal-footer uk-text-right">
+					<a href="#modal-group-3" class="uk-button uk-button-primary" uk-toggle>Следующий</a>
+				</div>
+			</div>
+		</div>
+		<div id="modal-group-3" uk-modal>
+			<div class="uk-modal-dialog">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-modal-header">
+					<h2 class="uk-modal-title">Триумф 3</h2>
+				</div>
+				<div class="uk-inline uk-light">
+					<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s2.jpg);"></div>
+					<a class="uk-position-absolute uk-transform-center" style="left: 35%; top: 30%" href="#" uk-marker></a>
+					<div style="width: 450px;" uk-drop="pos: right-center; mode: click; auto-update: false;">
+						
+						<div class="el-item uk-card uk-card-primary uk-card-small"><button class="uk-drop-close uk-position-small uk-position-top-right" type="button" aria-label="Close" uk-close></button>
+							<div class="uk-card-body uk-margin-remove-first-child">
+								<div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="uk-position-absolute uk-transform-center" style="left: 60%; top: 40%" href="#" uk-marker></a>
+					<div style="width: 450px;" uk-drop="pos: right-center; mode: click; auto-update: false;">
+						
+						<div class="el-item uk-card uk-card-primary uk-card-small"><button class="uk-drop-close uk-position-small uk-position-top-right" type="button" aria-label="Close" uk-close></button>
+							<div class="uk-card-body uk-margin-remove-first-child">
+								<div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="uk-position-absolute uk-transform-center" style="left: 45%; top: 70%" href="#" uk-marker></a>
+					<div style="width: 450px;" uk-drop="pos: right-center; mode: click; auto-update: false;">
+						
+						<div class="el-item uk-card uk-card-primary uk-card-small"><button class="uk-drop-close uk-position-small uk-position-top-right" type="button" aria-label="Close" uk-close></button>
+							<div class="uk-card-body uk-margin-remove-first-child">
+								<div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="uk-modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="uk-modal-footer uk-text-right">
+					<a href="#modal-group-4" class="uk-button uk-button-primary" uk-toggle>Следующий</a>
+				</div>
+			</div>
+		</div>
+		<div id="modal-group-4" uk-modal>
+			<div class="uk-modal-dialog">
+				<button class="uk-modal-close-default" type="button" uk-close></button>
+				<div class="uk-modal-header">
+					<h2 class="uk-modal-title">Триумф 4</h2>
+				</div>
+				<div class="uk-inline uk-light">
+					<div class="uk-background-contain uk-height-medium uk-width-large" style="background-image: url(images/s1.jpg);"></div>
+					<a class="uk-position-absolute uk-transform-center" style="left: 35%; top: 30%" href="#" uk-marker></a>
+					<div style="width: 450px;" uk-drop="pos: right-center; mode: click; auto-update: false;">
+						
+						<div class="el-item uk-card uk-card-primary uk-card-small"><button class="uk-drop-close uk-position-small uk-position-top-right" type="button" aria-label="Close" uk-close></button>
+							<div class="uk-card-body uk-margin-remove-first-child">
+								<div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="uk-position-absolute uk-transform-center" style="left: 60%; top: 40%" href="#" uk-marker></a>
+					<div style="width: 450px;" uk-drop="pos: right-center; mode: click; auto-update: false;">
+						
+						<div class="el-item uk-card uk-card-primary uk-card-small"><button class="uk-drop-close uk-position-small uk-position-top-right" type="button" aria-label="Close" uk-close></button>
+							<div class="uk-card-body uk-margin-remove-first-child">
+								<div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="uk-position-absolute uk-transform-center" style="left: 45%; top: 70%" href="#" uk-marker></a>
+					<div style="width: 450px;" uk-drop="pos: right-center; mode: click; auto-update: false;">
+						
+						<div class="el-item uk-card uk-card-primary uk-card-small"><button class="uk-drop-close uk-position-small uk-position-top-right" type="button" aria-label="Close" uk-close></button>
+							<div class="uk-card-body uk-margin-remove-first-child">
+								<div class="el-title uk-h6 uk-margin-top uk-margin-remove-bottom">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="uk-modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="uk-modal-footer uk-text-right">
+					<a href="#modal-group-1" class="uk-button uk-button-primary" uk-toggle>Следующий</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="uk-hidden@s uk-position-bottom-right uk-position-small uk-position-fixed"><a href="tel:84957756014" class="uk-button uk-button-secondary uk-button-large uk-margin-small-right">+7 495 775 60 14</a></div>
+<div class="uk-visible@s uk-position-top-right uk-position-small uk-position-fixed"><a href="tel:84957756014" class="uk-button uk-button-secondary uk-button-large uk-margin-small-right">+7 495 775 60 14</a></div>
+
 	</body>
 </html>
